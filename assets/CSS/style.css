@@ -53,13 +53,13 @@ body{
     background-color: #00439c;
 }
 
-a{
+#site_footer a:not(.more_info){
     text-decoration: none;
     display: block;
+    color: white;
 }
 
 .more_info{
-    text-decoration: none;
     color: white;
 }
 
