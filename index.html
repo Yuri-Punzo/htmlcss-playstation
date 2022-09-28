@@ -1,15 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/48d660b4b7.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/CSS/style.css">
     <title>PlayStation Home</title>
 </head>
-<body>
-    
+
+<body class="debug">
+    <header id="site_header">
+        <div class="d-flex justify-content-end">
+            <img class="w-25 my-3" src="./assets/img/sony_logo.svg" alt="">
+        </div>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- /#site_header -->
+
+    <main id="site_main">
+        <section class="jumbo">
+            <img src="./assets/img/returnal-hero-banner-logo.png" alt="">
+            <div class="container">
+                <div class="jumbo_cta text-light">
+                    <h2>rompi il cerchio</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, porro?</p>
+                    <a href="">Acquista Ora</a>
+                </div>
+            </div>
+        </section>
+        <section class="jumbo_thumbnails">
+            <div class="container">
+                <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6">
+                    <div class="col">
+                        <img class="card" src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="card" src="./assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="card" src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="card" src="./assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="card" src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="card" src="./assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ps_5">
+            <div class="container">
+                <div>
+                    <h6>play has no limits</h6>
+                    <h2>ecco la play 5</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, quisquam.</p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col">
+                        <h2>console playstation 5</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quasi.</p>
+                        <a href="">bottone</a>
+                    </div>
+                    <div class="col"><img src="./assets/img/playstation-5-thumb.png" alt=""></div>
+                </div>
+                <div class="row row-cols-3 row-cols-md-5">
+                    <div class="col"><img src="./assets/img/playstation-5-thumb.png" alt=""></div>
+                    <div class="col"><img src="./assets/img/joypad-thumb.png" alt=""></div>
+                    <div class="col"><img src="./assets/img/headset-thumb.png" alt=""></div>
+                    <div class="col"><img src="./assets/img/remote-thumb.png" alt=""></div>
+                    <div class="col"><img src="./assets/img/camera-thumb.jpg" alt=""></div>
+                </div>
+
+            </div>
+        </section>
+        <section class="it_takes_two text-light">
+            <div>
+                <img src="./assets/img/it-takes-two-logo.png" alt="">
+                <h2>bla bla</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, natus.</p>
+                <a href="">bottone</a>
+            </div>
+        </section>
+        <section class="new_releases text-light">
+            <div class="container">
+                <div>
+                    <h3>Nuove uscite</h3>
+                    <p>Giochi incredibili per ps4 e ps5 disponibili adesso</p>
+                </div>
+                <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6">
+                    <div class="col">
+                        <img src="./assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        <p>nome gioco1</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        <p>nome gioco2</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        <p>nome gioco1</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        <p>nome gioco2</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        <p>nome gioco1</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        <p>nome gioco2</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        <p>nome gioco1</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        <p>nome gioco2</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        <p>nome gioco1</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        <p>nome gioco2</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        <p>nome gioco1</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        <p>nome gioco2</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ps_4">
+            <div class="container">
+                <div>
+                    <h2>esplora playstation(R) 4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, perferendis.</p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col">
+                        <img src="./assets/img/ps4-slim-homepage-image-block.jpg" alt="">
+                        <h2>PlayStation 4</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="">scopri di più</a>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/double11-202010-tw-psvr.jpg" alt="">
+                        <h2>PlayStation VR</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="">scopri di più</a>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/dualshock-4-listing-thumb.jpg" alt="">
+                        <h2>Accessori</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="">scopri di più</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ps_plus">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col">
+                        <img src="./assets/img/ps-plus-logo.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nemo illo quasi explicabo
+                            voluptate debitis, dolorem similique mollitia reiciendis quia!</p>
+                        <a href="">bottone</a>
+                    </div>
+                    <div class="col d-none d-md-block">
+                        <img src="./assets/img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sales">
+            <div class="container">
+                <div>
+                    <h2>Nuovi sconti sul PlayStation Store</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, dolor!</p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col">
+                        <img src="./assets/img/playstation-store-games-under-20-spotlight.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/playstation-store-free-to-play-spotlight.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ps_now text-light">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col">
+                        <img src="./assets/img/ps-now-logo-two-column.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nemo illo quasi explicabo
+                            voluptate debitis, dolorem similique mollitia reiciendis quia!</p>
+                        <a href="">bottone</a>
+                    </div>
+                    <div class="col d-none d-md-block">
+                        <img src="./assets/img/ps-now-april-featured-image-block.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="follow_us">
+            <div class="container">
+                <div>
+                    <h3>Seguici sui social media</h3>
+                </div>
+                <div class="row row-cols-2 row-cols-sm-4">
+                    <div class="col">
+                        <img src="./assets/img/twitter.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/facebook.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/instagram.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/youtube.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- /#site_main -->
+
+    <footer id="site_footer text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img src="./assets/img/ps-footer.svg" alt="">
+                    <div class="zone">
+                        <i class="fa-solid fa-globe"></i> - Country/Region: Italy
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2">
+                    <a href="">Link footer n</a>
+                    <a href="">Link footer n</a>
+                    <a href="">Link footer n</a>
+                    <a href="">Link footer n</a>
+                    <a href="">Link footer n</a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2">
+                    <a href="">Link footer n</a>
+                    <a href="">Link footer n</a>
+                    <a href="">Link footer n</a>
+                    <a href="">Link footer n</a>
+                    <a href="">Link footer n</a>
+                    <a href="">Link footer n</a>
+                    <a href="">Link footer n</a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2">
+                    <a href="">Link footer n</a>
+                    <a href="">Link footer n</a>
+                    <a href="">Link footer n</a>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="./assets/img/sie-logo.svg" alt="">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto autem commodi illum facere suscipit debitis? Ducimus non voluptatum asperiores magnam, modi recusandae quas labore voluptas hic saepe? Hic amet ipsum a <a class="more_info" href="">maggiori info</a>                         
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /#site_footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <!-- /bootstrap javascript -->
 </body>
+
 </html>

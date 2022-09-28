@@ -5,3 +5,62 @@ img{
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* #region utility */
+
+
+
+/* #endregion utility */
+
+
+/* #region header */
+
+#site_header{
+    background-color: black;
+}
+
+/* #endregion header */
+
+
+/* #region main */
+
+.jumbo{
+    background-image: url(../img/jumbo-bg.png);
+}
+
+.it_takes_two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.new_releases{
+    background-color: #1f1f1f;
+}
+
+.ps_plus{
+    background-color: #bebcbb;
+}
+
+.ps_now{
+    background-color: #161c3b;
+}
+
+/* #endregion main */
+
+
+/* #region footer */
+
+#site_footer{
+    background-color: #00439c;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.more_info{
+    text-decoration: none;
+    color: white;
+}
+
+/* #endregion footer */
