@@ -53,6 +53,12 @@ body {
     padding-top: 285px;
 }
 
+.slide_up{
+    position: relative;
+    top:0;
+    transition: 0.5s;
+}
+
 .returnal_logo{
     width: 280px;
 }
@@ -240,5 +246,9 @@ h2{
 
 .legal_info:hover{
     color: white;
+}
+
+.slide_up:hover{
+    top:-15px;
 }
 /* #endregion hover */
