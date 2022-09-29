@@ -8,7 +8,9 @@ body {
 
 /* #region utility */
 
-
+.relative{
+    position: relative;
+}
 
 /* #endregion utility */
 
@@ -32,12 +34,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 675px;
-    position: relative;
+    margin-top: 105px;
 }
 
 .jumbo_cta{
-    position: absolute;
-    top: 42%
+    padding-top: 285px;
 }
 
 .returnal_logo{
