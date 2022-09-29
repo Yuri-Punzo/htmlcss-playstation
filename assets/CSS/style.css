@@ -21,6 +21,17 @@ body {
     background-color: black;
 }
 
+.log_in{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 6px 12px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
 /* #endregion header */
 
 
@@ -58,6 +69,7 @@ h2{
     border-radius: 25px;
     font-weight: bold;
     margin-top: 2rem;
+    transition: 0.3s;
 }
 
 .selected{
@@ -82,6 +94,7 @@ h2{
     padding: 12px 12px;
     border-radius: 25px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .it_takes_two {
@@ -103,6 +116,7 @@ h2{
     padding: 12px 12px;
     border-radius: 25px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .ps_4 i{
@@ -127,6 +141,7 @@ h2{
     padding: 12px 12px;
     border-radius: 25px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .sales p{
@@ -146,6 +161,7 @@ h2{
     padding: 12px 12px;
     border-radius: 25px;
     font-weight: bold;
+    transition: 0.3s;
 }
 /* #endregion main */
 
@@ -181,5 +197,40 @@ h2{
     cursor: pointer;
 }
 
+.log_in:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 0 2px black, inset 0 0 0 2px white;
+}
+
+.buy_now:hover{
+    background-color: #cd3d0f;
+    color: white;
+    box-shadow: 0 0 0 3px #cd3d0f, inset 0 0 0 2px white;
+}
+
+.more_info:hover{
+    background-color: #2d64e6;
+    color: white;
+    box-shadow: 0 0 0 3px #2d64e6, inset 0 0 0 2px white;
+}
+
+.discover:hover{
+    background-color: #2d64e6;
+    color: white;
+    box-shadow: 0 0 0 3px #2d64e6, inset 0 0 0 2px white;
+}
+
+.explore_ps_plus:hover{
+    background-color: #d9dadc;
+    color: #2d64e6;
+    box-shadow: 0 0 0 3px #d9dadc, inset 0 0 0 2px #2d64e6;
+}
+
+.explore_ps_now:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 0 3px white, inset 0 0 0 2px black;
+}
 
 /* #endregion hover */
