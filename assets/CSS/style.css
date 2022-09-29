@@ -94,6 +94,26 @@ h2{
     background-color: #1f1f1f;
 }
 
+.discover{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #2d64e6;
+    padding: 12px 12px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.ps_4 i{
+    font-size: 12px;
+    vertical-align: super;
+}
+
+.ps_4 p{
+    color: #727272;
+    font-size: 20px;
+}
+
 .ps_plus {
     background-color: #bebcbb;
 }
