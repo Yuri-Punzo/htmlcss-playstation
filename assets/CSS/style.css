@@ -168,11 +168,17 @@ h2{
 
 /* #endregion footer */
 
+
 /* #region hover */
 
 .ps_5 .opacity-50:hover{
     opacity: 4!important;
     border-bottom: 5px solid #0d6efd
 }
+
+.new_releases img:hover{
+    cursor: pointer;
+}
+
 
 /* #endregion hover */
