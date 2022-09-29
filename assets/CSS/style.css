@@ -201,7 +201,8 @@ h2{
 
 .ps_5 .opacity-50:hover{
     opacity: 4!important;
-    border-bottom: 5px solid #0d6efd
+    border-bottom: 5px solid #0d6efd;
+    margin-bottom: -5px;
 }
 
 .new_releases img:hover{
