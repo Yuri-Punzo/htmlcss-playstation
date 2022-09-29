@@ -234,4 +234,11 @@ h2{
     box-shadow: 0 0 0 3px white, inset 0 0 0 2px black;
 }
 
+.follow_us img:hover{
+    cursor: pointer;
+}
+
+.legal_info:hover{
+    color: white;
+}
 /* #endregion hover */
