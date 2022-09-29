@@ -59,6 +59,30 @@ h2{
     margin-top: 2rem;
 }
 
+.selected{
+    border: 2px solid #0d6efd;
+    padding: 3px;
+}
+
+.ps_5 h6{
+    color: #147dd2;
+}
+
+.ps_5 p{
+    font-weight: bold;
+    color: #727272;
+}
+
+.more_info{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #2d64e6;
+    padding: 12px 12px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
 .it_takes_two {
     background: url(../img/it-takes-two-hero-banner-desktop.jpg) #1f1f1f;
     background-position: center;
@@ -87,14 +111,23 @@ h2{
     background-color: #00439c;
 }
 
-#site_footer a:not(.more_info) {
+#site_footer a:not(.legal_info) {
     text-decoration: none;
     display: block;
     color: white;
 }
 
-.more_info {
+.legal_info {
     color: white;
 }
 
 /* #endregion footer */
+
+/* #region hover */
+
+.ps_5 .opacity-50:hover{
+    opacity: 4!important;
+    border-bottom: 5px solid #0d6efd
+}
+
+/* #endregion hover */
