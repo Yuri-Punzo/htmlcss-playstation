@@ -248,7 +248,7 @@ h2{
     color: white;
 }
 
-.slide_up:hover{
-    top:-15px;
+.jumbo_thumbnails .col:hover{
+    top:-20px;
 }
 /* #endregion hover */
