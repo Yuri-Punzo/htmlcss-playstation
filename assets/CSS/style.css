@@ -156,6 +156,10 @@ h2{
     font-size: 20px;
 }
 
+.sales img{
+    transition: 0.3s;
+}
+
 .ps_now {
     background-color: #161c3b;
 }
@@ -232,6 +236,11 @@ h2{
     background-color: #d9dadc;
     color: #2d64e6;
     box-shadow: 0 0 0 3px #d9dadc, inset 0 0 0 2px #2d64e6;
+}
+
+.sales img:hover{
+    box-shadow: 12px 12px 0 0 #818181;
+    cursor: pointer;
 }
 
 .explore_ps_now:hover{
