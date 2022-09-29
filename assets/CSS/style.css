@@ -128,6 +128,11 @@ h2{
     font-weight: bold;
 }
 
+.sales p{
+    color: #727272;
+    font-size: 20px;
+}
+
 .ps_now {
     background-color: #161c3b;
 }
