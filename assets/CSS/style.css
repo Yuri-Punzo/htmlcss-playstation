@@ -28,10 +28,35 @@ body {
 }
 
 .jumbo {
-    background: url(../img/jumbo-bg.png) black;
+    background: url(../img/jumbo-bg.png) #000000;
     background-position: center;
     background-repeat: no-repeat;
     height: 675px;
+    position: relative;
+}
+
+.jumbo_cta{
+    position: absolute;
+    top: 42%
+}
+
+.returnal_logo{
+    width: 280px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.buy_now{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #cd3d0f;
+    padding: 12px 12px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 2rem;
 }
 
 .it_takes_two {
