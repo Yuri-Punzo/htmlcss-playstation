@@ -118,6 +118,16 @@ h2{
     background-color: #bebcbb;
 }
 
+.explore_ps_plus{
+    display: inline-block;
+    text-decoration: none;
+    color: #2d64e6;
+    background-color: #d9dadc;
+    padding: 12px 12px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
 .ps_now {
     background-color: #161c3b;
 }
