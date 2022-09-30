@@ -8,7 +8,7 @@ body {
 
 /* #region utility */
 
-.relative{
+.relative {
     position: relative;
 }
 
@@ -21,7 +21,7 @@ body {
     background-color: black;
 }
 
-.log_in{
+.log_in {
     display: inline-block;
     text-decoration: none;
     border: none;
@@ -49,25 +49,25 @@ body {
     margin-top: 105px;
 }
 
-.jumbo_cta{
+.jumbo_cta {
     padding-top: 285px;
 }
 
-.slide_up{
+.slide_up {
     position: relative;
-    top:0;
+    top: 0;
     transition: 0.5s;
 }
 
-.returnal_logo{
+.returnal_logo {
     width: 280px;
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
 
-.buy_now{
+.buy_now {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -79,21 +79,21 @@ h2{
     transition: 0.3s;
 }
 
-.selected{
+.selected {
     border: 2px solid #0d6efd;
     padding: 3px;
 }
 
-.ps_5 h6{
+.ps_5 h6 {
     color: #147dd2;
 }
 
-.ps_5 p{
+.ps_5 p {
     font-weight: bold;
     color: #727272;
 }
 
-.more_info{
+.more_info {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -115,7 +115,7 @@ h2{
     background-color: #1f1f1f;
 }
 
-.discover{
+.discover {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -126,12 +126,12 @@ h2{
     transition: 0.3s;
 }
 
-.ps_4 i{
+.ps_4 i {
     font-size: 12px;
     vertical-align: super;
 }
 
-.ps_4 p{
+.ps_4 p {
     color: #727272;
     font-size: 20px;
 }
@@ -140,7 +140,7 @@ h2{
     background-color: #bebcbb;
 }
 
-.explore_ps_plus{
+.explore_ps_plus {
     display: inline-block;
     text-decoration: none;
     color: #2d64e6;
@@ -151,12 +151,12 @@ h2{
     transition: 0.3s;
 }
 
-.sales p{
+.sales p {
     color: #727272;
     font-size: 20px;
 }
 
-.sales img{
+.sales img {
     transition: 0.3s;
 }
 
@@ -164,7 +164,7 @@ h2{
     background-color: #161c3b;
 }
 
-.explore_ps_now{
+.explore_ps_now {
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -174,6 +174,11 @@ h2{
     font-weight: bold;
     transition: 0.3s;
 }
+
+.follow_us img {
+    transition: 0.3s;
+}
+
 /* #endregion main */
 
 
@@ -199,66 +204,71 @@ h2{
 
 /* #region hover */
 
-.ps_5 .opacity-50:hover{
-    opacity: 4!important;
+.ps_5 .opacity-50:hover {
+    opacity: 4 !important;
     border-bottom: 5px solid #0d6efd;
     margin-bottom: -5px;
 }
 
-.new_releases img:hover{
+.new_releases img:hover {
     cursor: pointer;
 }
 
-.log_in:hover{
+.log_in:hover {
     background-color: #363636;
     color: white;
     box-shadow: 0 0 0 2px #363636, inset 0 0 0 2px white;
 }
 
-.buy_now:hover{
+.buy_now:hover {
     background-color: #cd3d0f;
     color: white;
     box-shadow: 0 0 0 3px #cd3d0f, inset 0 0 0 2px white;
 }
 
-.more_info:hover{
+.more_info:hover {
     background-color: #2d64e6;
     color: white;
     box-shadow: 0 0 0 3px #2d64e6, inset 0 0 0 2px white;
 }
 
-.discover:hover{
+.discover:hover {
     background-color: #2d64e6;
     color: white;
     box-shadow: 0 0 0 3px #2d64e6, inset 0 0 0 2px white;
 }
 
-.explore_ps_plus:hover{
+.explore_ps_plus:hover {
     background-color: #d9dadc;
     color: #2d64e6;
     box-shadow: 0 0 0 3px #d9dadc, inset 0 0 0 2px #2d64e6;
 }
 
-.sales img:hover{
+.sales img:hover {
     box-shadow: 12px 12px 0 0 #818181;
     cursor: pointer;
 }
 
-.explore_ps_now:hover{
+.explore_ps_now:hover {
     background-color: white;
     color: black;
     box-shadow: 0 0 0 3px white, inset 0 0 0 2px black;
 }
 
-.follow_us img:hover{
+.follow_us img:hover {
     cursor: pointer;
 }
 
-.legal_info:hover{
+.legal_info:hover {
     color: white;
 }
 
-.jumbo_thumbnails .col:hover{
-    top:-20px;
+.jumbo_thumbnails .col:hover {
+    top: -20px;
 }
+
+.follow_us img:hover {
+    transform: scale(108%);
+}
+
 /* #endregion hover */
