@@ -330,6 +330,11 @@ h2 {
 .arrow {
     width: 26px;
     padding: 8px;
+    transition: 0.3s;
+}
+
+.yu_rotate:focus .arrow{
+    transform: rotate(180deg);
 }
 
 .dropdown-menu[data-bs-popper] {
